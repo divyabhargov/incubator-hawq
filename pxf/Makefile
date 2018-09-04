@@ -48,6 +48,7 @@ ifneq "$(DATABASE)" ""
     BUILD_PARAMS+= -Ddatabase="$(DATABASE)"
 endif
 
+BUILD_PARAMS+= -x"test"
 help:
 	@echo 
 	@echo "help it is then"
